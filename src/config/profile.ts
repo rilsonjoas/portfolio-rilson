@@ -1,7 +1,7 @@
 export const profile = {
-  name: "Seu Nome",
+  name: "Rilson Joás",
   role: "Desenvolvedor React",
-  location: "Cidade, País",
+  location: "Recife, Brasil",
   bio: "Desenvolvedor especializado em React, TypeScript e interfaces modernas.",
   links: {
     github: "https://github.com/seuusuario",
