@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Portfolio
 
-## Project info
+## Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/83fdee93-794f-4d79-99d2-d6129299c52c
+Este é um portfólio pessoal desenvolvido com tecnologias modernas para apresentar projetos e habilidades de desenvolvimento.
 
-## How can I edit this code?
+## Status do Projeto
 
-There are several ways of editing your application.
+✅ **Configuração inicial completa**
+- Estrutura base do projeto configurada
+- Dependências instaladas e otimizadas
+- Configuração do Vite e TypeScript
+- Remoção completa das referências ao Lovable
+- Favicon personalizado criado
+- Configuração exclusiva para npm (Bun removido)
 
-**Use Lovable**
+## Próximas Etapas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/83fdee93-794f-4d79-99d2-d6129299c52c) and start prompting.
+### 🚀 **Fase 1 - Desenvolvimento Core**
+- [ ] Implementar layout principal e navegação
+- [ ] Criar seção "Sobre Mim" com informações pessoais
+- [ ] Desenvolver página de projetos com cards interativos
+- [ ] Adicionar seção de habilidades técnicas
+- [ ] Implementar tema escuro/claro
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎨 **Fase 2 - Design e UX**
+- [ ] Refinar design responsivo para mobile
+- [ ] Adicionar animações e transições suaves
+- [ ] Implementar loading states
+- [ ] Otimizar performance e acessibilidade
+- [ ] Adicionar meta tags para SEO
 
-**Use your preferred IDE**
+### 📱 **Fase 3 - Funcionalidades Avançadas**
+- [ ] Formulário de contato funcional
+- [ ] Integração com redes sociais
+- [ ] Analytics e métricas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🚀 **Fase 4 - Deploy e Produção**
+- [ ] Configurar CI/CD
+- [ ] Deploy automático
+- [ ] Configurar domínio personalizado
+- [ ] Monitoramento e logs
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Como executar o projeto
 
-Follow these steps:
+### Pré-requisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (versão 18.17.0 ou superior)
+- npm (gerenciador de pacotes)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalação e execução
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# 1. Clone o repositório
+git clone https://github.com/rilsonjoas/portfolio-rilson.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 2. Navegue até o diretório do projeto
+cd portfolio-rilson
+
+# 3. Instale as dependências
+npm install
+
+# 4. Execute o projeto em modo de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Scripts disponíveis
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` ou `npm start` - Inicia o servidor de desenvolvimento
+- `npm run build` - Gera build de produção
+- `npm run build:dev` - Gera build de desenvolvimento
+- `npm run preview` - Visualiza o build de produção
+- `npm run lint` - Executa o linter
+- `npm run lint:fix` - Executa o linter e corrige automaticamente
+- `npm run clean` - Limpa cache e arquivos temporários
+- `npm run reinstall` - Reinstala todas as dependências
 
-**Use GitHub Codespaces**
+## Tecnologias utilizadas
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Vite** - Build tool e dev server
+- **React** - Biblioteca para interfaces
+- **TypeScript** - Superset do JavaScript
+- **Tailwind CSS** - Framework CSS utilitário
+- **shadcn/ui** - Componentes reutilizáveis
+- **Lucide React** - Ícones
 
-## What technologies are used for this project?
+## Estrutura do projeto
 
-This project is built with:
+```text
+portfolio-rilson/
+├── public/          # Arquivos estáticos
+├── src/
+│   ├── components/  # Componentes React
+│   ├── pages/       # Páginas da aplicação
+│   ├── config/      # Configurações
+│   ├── data/        # Dados estáticos
+│   ├── hooks/       # Custom hooks
+│   └── lib/         # Utilitários
+├── package.json     # Dependências e scripts
+└── vite.config.ts   # Configuração do Vite
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deploy
 
-## How can I deploy this project?
+O projeto pode ser facilmente deployado em plataformas como:
 
-Simply open [Lovable](https://lovable.dev/projects/83fdee93-794f-4d79-99d2-d6129299c52c) and click on Share -> Publish.
+- Vercel
+- Netlify
+- GitHub Pages
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
