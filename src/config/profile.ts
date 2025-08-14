@@ -11,8 +11,7 @@ export const profile = {
     machinelearning: ["CNN (Redes Neurais Convolucionais)", "Machine Learning Clássico", "Computer Vision"],
     datavisualization: ["Matplotlib", "Seaborn", "Análise de Dados"],
     imageprocessing: ["OpenCV", "Scikit-image", "Processamento de Imagem"],
-    tools: ["Git", "GitHub", "Vite", "npm", "VS Code", "WordPress", "Jupyter Notebook"],
-    concepts: ["Responsive Design", "Component Architecture", "Modern CSS", "Performance Optimization", "UI/UX Design", "Data Analysis", "Deep Learning"]
+    tools: ["Git", "GitHub", "Vite", "npm", "VS Code", "WordPress", "Jupyter Notebook"]
   },
   experience: {
     current: "Assistente de TI Júnior",
@@ -25,7 +24,7 @@ export const profile = {
   links: {
     github: "https://github.com/rilsonjoas",
     linkedin: "https://linkedin.com/in/rilsonjoas",
-    email: "mailto:rilson@email.com",
+    email: "mailto:rilsonjoas10@gmail.com",
   },
 };
 

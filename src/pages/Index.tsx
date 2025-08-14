@@ -64,7 +64,7 @@ const Index = () => {
         <AboutSection profile={profile} />
       </Section>
 
-      {/* Skills Section */}
+      {/* Habilidades */}
       <Section 
         title="Habilidades Técnicas" 
         description="Tecnologias e ferramentas que utilizo para criar experiências excepcionais."
@@ -73,7 +73,7 @@ const Index = () => {
         <SkillsSection skills={profile.skills} />
       </Section>
 
-      {/* Featured Projects */}
+      {/* Projetos */}
       <Section 
         title="Projetos em Destaque" 
         description="Alguns projetos selecionados que demonstram minhas habilidades."

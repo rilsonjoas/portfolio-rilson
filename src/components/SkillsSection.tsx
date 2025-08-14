@@ -11,7 +11,6 @@ interface SkillsProps {
     datavisualization: string[];
     imageprocessing: string[];
     tools: string[];
-    concepts: string[];
   };
 }
 
@@ -56,11 +55,6 @@ export const SkillsSection = ({ skills }: SkillsProps) => {
       title: "Ferramentas",
       items: skills.tools,
       color: "bg-purple-500/10 text-purple-700 dark:text-purple-300"
-    },
-    {
-      title: "Conceitos",
-      items: skills.concepts,
-      color: "bg-orange-500/10 text-orange-700 dark:text-orange-300"
     }
   ];
 
