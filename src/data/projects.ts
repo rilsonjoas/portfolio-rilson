@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description: "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
     techStack: ["HTML5", "CSS3", "JavaScript ES6+"],
     githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
-    liveUrl: "https://rilsonjoas.github.io/RemovedorDeComentarios/",
+    liveUrl: "https://removedor-de-comentarios.vercel.app/",
     image: "/RemovedorDeComentarios.png",
   },
   {
