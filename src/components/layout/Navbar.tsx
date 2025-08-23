@@ -55,9 +55,6 @@ export const Navbar = () => {
         <div className="hidden md:flex items-center gap-1">
           <NavItem to="/" label="Início" />
           <NavItem to="/projects" label="Projetos" />
-          <Button asChild variant="ghost">
-            <a href={profile.links.email}>Contato</a>
-          </Button>
           <Socials />
           <ThemeToggle />
         </div>
@@ -75,9 +72,7 @@ export const Navbar = () => {
               <div className="flex flex-col space-y-4 mt-8">
                 <NavItem to="/" label="Início" onClick={closeSheet} />
                 <NavItem to="/projects" label="Projetos" onClick={closeSheet} />
-                <Button asChild variant="ghost" className="justify-start" onClick={closeSheet}>
-                  <a href={profile.links.email}>Contato</a>
-                </Button>
+                {/* Contato removido */}
                 
                 <div className="border-t pt-4 mt-6">
                   <p className="text-sm font-medium mb-3">Redes Sociais</p>

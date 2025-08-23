@@ -28,7 +28,7 @@ export const AboutSection = ({ profile }: AboutProps) => {
             Sobre Mim
           </h3>
           <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-            {profile.bio}
+            Desenvolvedor Full Stack de Recife-PE, Brasil, graduando em Ciência da Computação. Meu primeiro "Hello World" foi quando percebi o incrível e infinito potencial da web. Sou apaixonado por artes, história, geografia e tecnologia. Entre meus hobbies estão assistir, ler e escrever. Acredito que a tecnologia pode transformar vidas e adoro criar soluções que unem criatividade, conhecimento e impacto positivo.
           </p>
         </div>
         
@@ -74,20 +74,8 @@ export const AboutSection = ({ profile }: AboutProps) => {
               </div>
             </div>
 
-            <div className="mt-4">
-              <p className="text-xs sm:text-sm font-medium mb-2">Tecnologias Corporativas:</p>
-              <div className="flex flex-wrap gap-1">
-                {profile.experience.technologies.map((tech, index) => (
-                  <span 
-                    key={tech} 
-                    className="text-xs px-2 py-1 bg-muted rounded-md text-muted-foreground transform transition-all duration-200 hover:scale-105"
-                    style={{ animationDelay: `${index * 50}ms` }}
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
+            
+            
           </CardContent>
         </Card>
       </div>

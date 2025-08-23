@@ -16,7 +16,7 @@ export const projects: Project[] = [
     techStack: ["HTML5", "CSS3", "JavaScript ES6+"],
     githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
     liveUrl: "https://rilsonjoas.github.io/RemovedorDeComentarios/",
-    image: "/placeholder.svg",
+    image: "/RemovedorDeComentarios.png",
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "React", "TypeScript", "Recharts", "CSS"],
     githubUrl: "https://github.com/rilsonjoas/deteccao-doencas-plantas-site",
     liveUrl: "https://deteccao-doencas-plantas-site.vercel.app/",
-    image: "/placeholder.svg",
+    image: "/PlantDiseaseAI.png",
   },
   {
     id: "3",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn/UI", "Next/Font"],
     githubUrl: "https://github.com/rilsonjoas/GeradorCSLewis",
     liveUrl: "https://gerador-cs-lewis.vercel.app/",
-    image: "/placeholder.svg",
+    image: "/Gerador de Citações C. S. Lewis.png",
   },
   {
     id: "4",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     techStack: ["HTML5", "CSS3", "JavaScript ES6+", "Google Fonts"],
     githubUrl: "https://github.com/rilsonjoas/HelloWorldGenerator",
     liveUrl: "https://rilsonjoas.github.io/HelloWorldGenerator/",
-    image: "/placeholder.svg",
+    image: "/HelloWorld Generator.png",
   },
   
 ];

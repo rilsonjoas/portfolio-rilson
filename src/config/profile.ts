@@ -23,7 +23,7 @@ export const profile = {
   },
   links: {
     github: "https://github.com/rilsonjoas",
-    linkedin: "https://linkedin.com/in/rilsonjoas",
+    linkedin: "https://www.linkedin.com/in/rilson-joas/",
     email: "mailto:rilsonjoas10@gmail.com",
   },
 };
