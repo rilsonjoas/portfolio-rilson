@@ -66,4 +66,14 @@ export const projects: Project[] = [
     liveUrl: "https://teste-politico.vercel.app/",
     image: "/Teste Político 8 Valores.png",
   },
+  {
+    id: "6",
+    title: "Alternativas BR",
+    description:
+      "Plataforma curada para descobrir softwares e serviços nacionais que rivalizam com as melhores ferramentas internacionais. Fortalece o ecossistema tech brasileiro com catálogo de 25+ produtos 100% brasileiros.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    githubUrl: "https://github.com/rilsonjoas/alternativas-br",
+    liveUrl: "https://alternativas-br.vercel.app/",
+    image: "/alternativas.png",
+  },
 ];
