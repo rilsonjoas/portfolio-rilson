@@ -11,13 +11,13 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Removedor de Comentário em Código",
+    title: "Alternativas BR",
     description:
-      "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
-    techStack: ["HTML5", "CSS3", "JavaScript ES6+"],
-    githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
-    liveUrl: "https://removedor-de-comentarios.vercel.app/",
-    image: "/RemovedorDeComentarios.png",
+      "Plataforma curada para descobrir softwares e serviços nacionais que rivalizam com as melhores ferramentas internacionais. Fortalece o ecossistema tech brasileiro com catálogo de 25+ produtos 100% brasileiros.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    githubUrl: "https://github.com/rilsonjoas/alternativas-br",
+    liveUrl: "https://alternativas-br.vercel.app/",
+    image: "/alternativas.png",
   },
   {
     id: "2",
@@ -68,12 +68,12 @@ export const projects: Project[] = [
   },
   {
     id: "6",
-    title: "Alternativas BR",
+    title: "Removedor de Comentário em Código",
     description:
-      "Plataforma curada para descobrir softwares e serviços nacionais que rivalizam com as melhores ferramentas internacionais. Fortalece o ecossistema tech brasileiro com catálogo de 25+ produtos 100% brasileiros.",
-    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
-    githubUrl: "https://github.com/rilsonjoas/alternativas-br",
-    liveUrl: "https://alternativas-br.vercel.app/",
-    image: "/alternativas.png",
+      "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
+    techStack: ["HTML5", "CSS3", "JavaScript ES6+"],
+    githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
+    liveUrl: "https://removedor-de-comentarios.vercel.app/",
+    image: "/RemovedorDeComentarios.png",
   },
 ];
