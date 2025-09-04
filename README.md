@@ -1,5 +1,6 @@
 # Portfolio Rilson Guedes
 
+<<<<<<< HEAD
 ## 🚀 Projeto Completo
 
 Portfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar projetos e expertise em **Desenvolvimento Full Stack** e **Data Science**. 
@@ -75,78 +76,11 @@ Portfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar 
 ### Instalação e execução
 
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/rilsonjoas/portfolio-rilson.git
-
-# 2. Navegue até o diretório do projeto
-cd portfolio-rilson
-
-# 3. Instale as dependências
 npm install
-
-# 4. Execute o projeto em modo de desenvolvimento
 npm run dev
 ```
 
-### Scripts disponíveis
-
-- `npm run dev` ou `npm start` - Inicia o servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run build:dev` - Gera build de desenvolvimento
-- `npm run preview` - Visualiza o build de produção
-- `npm run lint` - Executa o linter
-- `npm run lint:fix` - Executa o linter e corrige automaticamente
-- `npm run clean` - Limpa cache e arquivos temporários
-- `npm run reinstall` - Reinstala todas as dependências
-
-## Tecnologias utilizadas
-
-### **Desenvolvimento Web**
-
-- **Vite** - Build tool e dev server
-- **React** - Biblioteca para interfaces
-- **TypeScript** - Superset do JavaScript
-- **Tailwind CSS** - Framework CSS utilitário
-- **shadcn/ui** - Componentes reutilizáveis
-- **Lucide React** - Ícones
-
-### **Data Science & Machine Learning**
-
-- **Python 3.10** - Linguagem principal para análise de dados
-- **TensorFlow & Keras** - Para construção e treinamento de CNNs
-- **Scikit-learn** - Modelos clássicos de Machine Learning e métricas
-- **OpenCV & Scikit-image** - Processamento de imagem e extração de características
-- **Pandas & NumPy** - Manipulação e análise de dados
-- **Matplotlib & Seaborn** - Visualização de resultados e dados
-
-### **Backend & Infraestrutura**
-
-- **Express.js** - Framework Node.js
-- **Firebase & Supabase** - Backend as a Service
-- **Sankhya** - Sistema corporativo
-
-## Estrutura do projeto
-
-```text
-portfolio-rilson/
-├── public/          # Arquivos estáticos
-├── src/
-│   ├── components/  # Componentes React
-│   ├── pages/       # Páginas da aplicação
-│   ├── config/      # Configurações
-│   ├── data/        # Dados estáticos
-│   ├── hooks/       # Custom hooks
-│   └── lib/         # Utilitários
-├── package.json     # Dependências e scripts
-└── vite.config.ts   # Configuração do Vite
-```
-
-## Deploy
-
-O projeto pode ser facilmente deployado em plataformas como:
-
-- Vercel
-- Netlify
-- GitHub Pages
+---
+Desenvolvido por Rilson Joás
 
 

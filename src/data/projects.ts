@@ -12,38 +12,68 @@ export const projects: Project[] = [
   {
     id: "1",
     title: "Removedor de Comentário em Código",
-    description: "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
+    description:
+      "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
     techStack: ["HTML5", "CSS3", "JavaScript ES6+"],
     githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
-    liveUrl: "https://rilsonjoas.github.io/RemovedorDeComentarios/",
-    image: "/placeholder.svg",
+    liveUrl: "https://removedor-de-comentarios.vercel.app/",
+    image: "/RemovedorDeComentarios.png",
   },
   {
     id: "2",
     title: "PlantDiseaseAI - Detecção de Doenças em Plantas com IA",
-    description: "Website interativo que apresenta pesquisa científica sobre detecção de doenças em plantas usando Machine Learning e Deep Learning. Inclui análise comparativa de modelos, gráficos interativos, metodologia detalhada e resultados com alta acurácia.",
+    description:
+      "Website interativo que apresenta pesquisa científica sobre detecção de doenças em plantas usando Machine Learning e Deep Learning. Inclui análise comparativa de modelos, gráficos interativos, metodologia detalhada e resultados com alta acurácia.",
     techStack: ["Next.js", "React", "TypeScript", "Recharts", "CSS"],
     githubUrl: "https://github.com/rilsonjoas/deteccao-doencas-plantas-site",
     liveUrl: "https://deteccao-doencas-plantas-site.vercel.app/",
-    image: "/placeholder.svg",
+    image: "/PlantDiseaseAI.png",
   },
   {
     id: "3",
     title: "Gerador de Citações C. S. Lewis",
-    description: "Aplicação web interativa que gera citações inspiradoras de C. S. Lewis, exibindo fonte e link para compra do livro. Interface elegante, responsiva e moderna, construída com Next.js, TypeScript e Tailwind CSS.",
-    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn/UI", "Next/Font"],
+    description:
+      "Aplicação web interativa que gera citações inspiradoras de C. S. Lewis, exibindo fonte e link para compra do livro. Interface elegante, responsiva e moderna, construída com Next.js, TypeScript e Tailwind CSS.",
+    techStack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Shadcn/UI",
+      "Next/Font",
+    ],
     githubUrl: "https://github.com/rilsonjoas/GeradorCSLewis",
     liveUrl: "https://gerador-cs-lewis.vercel.app/",
-    image: "/placeholder.svg",
+    image: "/Gerador de Citações C. S. Lewis.png",
   },
   {
     id: "4",
     title: "HelloWorld Generator",
-    description: "Ferramenta web interativa que gera o código 'Hello, World!' para mais de 25 linguagens de programação. Interface inspirada em terminal, suporte a internacionalização (i18n) e funcionalidade de cópia rápida.",
+    description:
+      "Ferramenta web interativa que gera o código 'Hello, World!' para mais de 25 linguagens de programação. Interface inspirada em terminal, suporte a internacionalização (i18n) e funcionalidade de cópia rápida.",
     techStack: ["HTML5", "CSS3", "JavaScript ES6+", "Google Fonts"],
     githubUrl: "https://github.com/rilsonjoas/HelloWorldGenerator",
     liveUrl: "https://rilsonjoas.github.io/HelloWorldGenerator/",
-    image: "/placeholder.svg",
+    image: "/HelloWorld Generator.png",
   },
-  
+  {
+    id: "5",
+    title: "Teste Político 8 Valores",
+    description:
+      "Questionário político que tenta atribuir porcentagens para oito valores políticos diferentes e gerar resultados (com imagens).",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn/UI"],
+    githubUrl: "https://github.com/rilsonjoas/TestePolitico",
+    liveUrl: "https://teste-politico.vercel.app/",
+    image: "/Teste Político 8 Valores.png",
+  },
+  {
+    id: "6",
+    title: "Alternativas BR",
+    description:
+      "Plataforma curada para descobrir softwares e serviços nacionais que rivalizam com as melhores ferramentas internacionais. Fortalece o ecossistema tech brasileiro com catálogo de 25+ produtos 100% brasileiros.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    githubUrl: "https://github.com/rilsonjoas/alternativas-br",
+    liveUrl: "https://alternativas-br.vercel.app/",
+    image: "/alternativas.png",
+  },
 ];
