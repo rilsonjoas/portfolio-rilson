@@ -1,8 +1,5 @@
 # Portfolio Rilson Guedes
 
-<<<<<<< HEAD
-## 🚀 Projeto Completo
-
 Portfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar projetos e expertise em **Desenvolvimento Full Stack** e **Data Science**. 
 
 **🌐 Acesse:** [portfolio-rilson.vercel.app](https://portfolio-rilson.vercel.app)
