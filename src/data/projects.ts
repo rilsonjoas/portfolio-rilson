@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "Plataforma curada para descobrir softwares e serviços nacionais que rivalizam com as melhores ferramentas internacionais. Fortalece o ecossistema tech brasileiro com catálogo de 25+ produtos 100% brasileiros.",
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "https://github.com/rilsonjoas/alternativas-br",
-    liveUrl: "https://alternativas-br.vercel.app/",
+    liveUrl: "https://www.alternativasbr.com.br/",
     image: "/alternativas.png",
   },
   {
@@ -63,7 +63,7 @@ export const projects: Project[] = [
       "Questionário político que tenta atribuir porcentagens para oito valores políticos diferentes e gerar resultados (com imagens).",
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn/UI"],
     githubUrl: "https://github.com/rilsonjoas/TestePolitico",
-    liveUrl: "https://teste-politico.vercel.app/",
+    liveUrl: "https://www.testepolitico.com.br/",
     image: "/Teste Político 8 Valores.png",
   },
   {
