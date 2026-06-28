@@ -28,7 +28,8 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/deteccao-doencas-plantas-site",
     liveUrl: "https://deteccao-doencas-plantas-site.vercel.app/",
     image: "/PlantDiseaseAI.png",
-  },{
+  },
+  {
     id: "3",
     title: "Teste Político 8 Valores",
     description:
@@ -38,9 +39,18 @@ export const projects: Project[] = [
     liveUrl: "https://www.testepolitico.com.br/",
     image: "/Teste Político 8 Valores.png",
   },
- 
   {
     id: "4",
+    title: "A Bancada Evangélica",
+    description:
+      "Plataforma de transparência que monitora se os membros da Frente Parlamentar Evangélica votam como pregam. Ranking com 514 deputados scorados, análise ML de clusters de votação (KMeans/PCA), scoring híbrido com 5 critérios, 7.500+ votos reais sincronizados da API da Câmara e análise de gastos parlamentares.",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "NestJS", "Prisma", "PostgreSQL", "Python", "scikit-learn"],
+    githubUrl: "https://github.com/rilsonjoas/a-bancada-evangelica",
+    liveUrl: "https://a-bancada-evangelica.vercel.app/",
+    image: "/a-bancada-evangelica.png",
+  },
+  {
+    id: "5",
     title: "HelloWorld Generator",
     description:
       "Ferramenta web interativa que gera o código 'Hello, World!' para mais de 25 linguagens de programação. Interface inspirada em terminal, suporte a internacionalização (i18n) e funcionalidade de cópia rápida.",
@@ -50,7 +60,7 @@ export const projects: Project[] = [
     image: "/HelloWorld Generator.png",
   },
    {
-    id: "5",
+    id: "6",
     title: "Gerador de Citações C. S. Lewis",
     description:
       "Aplicação web interativa que gera citações inspiradoras de C. S. Lewis, exibindo fonte e link para compra do livro. Interface elegante, responsiva e moderna, construída com Next.js, TypeScript e Tailwind CSS.",
@@ -67,7 +77,7 @@ export const projects: Project[] = [
     image: "/Gerador de Citações C. S. Lewis.png",
   },
   {
-    id: "6",
+    id: "7",
     title: "Removedor de Comentário em Código",
     description:
       "Ferramenta web que remove comentários de código-fonte em mais de 20 linguagens de programação. Interface inspirada em terminal, processamento rápido via RegEx e design responsivo. Ideal para obter versões limpas de códigos.",
@@ -77,7 +87,7 @@ export const projects: Project[] = [
     image: "/RemovedorDeComentarios.png",
   },
   {
-    id: "7",
+    id: "8",
     title: "Quiz Denominacional",
     description:
       "Um quiz interativo projetado para ajudar os usuários a descobrir ou testar conhecimentos sobre diferentes denominações cristãs, com uma interface amigável e resultados dinâmicos.",
