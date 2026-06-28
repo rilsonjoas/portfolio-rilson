@@ -6,6 +6,7 @@ export type Project = {
   githubUrl?: string;
   liveUrl?: string;
   image?: string;
+  featured?: boolean;
 };
 
 export const projects: Project[] = [
@@ -18,6 +19,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/alternativas-br",
     liveUrl: "https://www.alternativasbr.com.br/",
     image: "/alternativas.png",
+    featured: true,
   },
   {
     id: "2",
@@ -28,6 +30,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/deteccao-doencas-plantas-site",
     liveUrl: "https://deteccao-doencas-plantas-site.vercel.app/",
     image: "/PlantDiseaseAI.png",
+    featured: true,
   },
   {
     id: "3",
@@ -38,6 +41,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/TestePolitico",
     liveUrl: "https://www.testepolitico.com.br/",
     image: "/Teste Político 8 Valores.png",
+    featured: true,
   },
   {
     id: "4",
@@ -48,6 +52,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/a-bancada-evangelica",
     liveUrl: "https://a-bancada-evangelica.vercel.app/",
     image: "/a-bancada-evangelica.png",
+    featured: true,
   },
   {
     id: "5",

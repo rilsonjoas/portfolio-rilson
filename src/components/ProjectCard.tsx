@@ -1,16 +1,31 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Github, ExternalLink, Sparkles } from "lucide-react";
 import type { Project } from "@/data/projects";
 
 export const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <article className="group h-full">
-      <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] border-0 shadow-md">
+      <Card
+        className={`h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.02] border-0 shadow-md ${
+          project.featured
+            ? "ring-1 ring-primary/20 bg-gradient-to-b from-background via-primary/[0.02] to-background"
+            : ""
+        }`}
+      >
         <CardHeader className="pb-3">
-          <CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors duration-300">
-            {project.title}
-          </CardTitle>
+          <div className="flex items-start justify-between gap-2">
+            <CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors duration-300">
+              {project.title}
+            </CardTitle>
+            {project.featured && (
+              <Badge variant="secondary" className="shrink-0 gap-1 text-xs">
+                <Sparkles className="size-3" />
+                Destaque
+              </Badge>
+            )}
+          </div>
         </CardHeader>
         <CardContent className="space-y-4">
           {project.image && (
@@ -26,28 +41,23 @@ export const ProjectCard = ({ project }: { project: Project }) => {
           )}
           <p className="text-sm text-muted-foreground leading-relaxed">{project.description}</p>
           <div className="flex flex-wrap gap-2">
-            {project.techStack.map((tech, index) => (
-              <span 
-                key={tech} 
-                className="rounded-full border px-3 py-1 text-xs text-muted-foreground bg-muted/50 hover:bg-muted transition-colors duration-200"
-                style={{ 
-                  animationDelay: `${index * 100}ms`,
-                  transform: 'translateY(10px)',
-                  opacity: 0,
-                  animation: 'slideInUp 0.5s ease-out forwards'
-                }}
+            {project.techStack.map((tech) => (
+              <Badge
+                key={tech}
+                variant="secondary"
+                className="text-xs hover:scale-105 transition-transform duration-200"
               >
                 {tech}
-              </span>
+              </Badge>
             ))}
           </div>
         </CardContent>
         <CardFooter className="mt-auto flex gap-2 pt-4">
           {project.githubUrl && (
-            <Button 
-              asChild 
-              variant="outline" 
-              size="sm" 
+            <Button
+              asChild
+              variant="outline"
+              size="sm"
               className="group/btn hover:scale-105 transition-all duration-200"
               aria-label="Código no GitHub"
             >
@@ -58,9 +68,9 @@ export const ProjectCard = ({ project }: { project: Project }) => {
             </Button>
           )}
           {project.liveUrl && (
-            <Button 
-              asChild 
-              size="sm" 
+            <Button
+              asChild
+              size="sm"
               className="group/btn hover:scale-105 transition-all duration-200"
               aria-label="Projeto ao vivo"
             >

@@ -10,6 +10,9 @@ const Projects = () => {
 
   const canonical = typeof window !== "undefined" ? window.location.href : "";
 
+  const featured = projects.filter((p) => p.featured);
+  const others = projects.filter((p) => !p.featured);
+
   return (
     <main>
       <Helmet>
@@ -18,13 +21,23 @@ const Projects = () => {
         {canonical && <link rel="canonical" href={canonical} />}
       </Helmet>
 
-      <Section title="Projetos" description="Trabalhos, estudos e open source.">
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((p) => (
+      <Section title="Projetos em Destaque" description="Projetos mais robustos, com full-stack, ML e banco de dados em produção.">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+          {featured.map((p) => (
             <ProjectCard key={p.id} project={p} />
           ))}
         </div>
       </Section>
+
+      {others.length > 0 && (
+        <Section title="Outros Projetos" description="Ferramentas e experimentos diversos.">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {others.map((p) => (
+              <ProjectCard key={p.id} project={p} />
+            ))}
+          </div>
+        </Section>
+      )}
     </main>
   );
 };
