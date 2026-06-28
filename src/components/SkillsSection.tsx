@@ -5,6 +5,7 @@ interface SkillsProps {
   skills: {
     languages: string[];
     frontend: string[];
+    mobile: string[];
     backend: string[];
     datascience: string[];
     machinelearning: string[];
@@ -18,42 +19,47 @@ export const SkillsSection = ({ skills }: SkillsProps) => {
   const skillCategories = [
     {
       title: "Linguagens",
-      items: skills.languages,
+      items: skills.languages ?? [],
       color: "bg-blue-500/10 text-blue-700 dark:text-blue-300"
     },
     {
       title: "Frontend",
-      items: skills.frontend,
+      items: skills.frontend ?? [],
       color: "bg-green-500/10 text-green-700 dark:text-green-300"
     },
     {
+      title: "Mobile",
+      items: skills.mobile ?? [],
+      color: "bg-orange-500/10 text-orange-700 dark:text-orange-300"
+    },
+    {
       title: "Backend & Dados",
-      items: skills.backend,
+      items: skills.backend ?? [],
       color: "bg-red-500/10 text-red-700 dark:text-red-300"
     },
     {
       title: "Data Science & AI",
-      items: skills.datascience,
+      items: skills.datascience ?? [],
       color: "bg-indigo-500/10 text-indigo-700 dark:text-indigo-300"
     },
     {
       title: "Machine Learning",
-      items: skills.machinelearning,
+      items: skills.machinelearning ?? [],
       color: "bg-pink-500/10 text-pink-700 dark:text-pink-300"
     },
     {
       title: "Visualização de Dados",
-      items: skills.datavisualization,
+      items: skills.datavisualization ?? [],
       color: "bg-cyan-500/10 text-cyan-700 dark:text-cyan-300"
     },
     {
       title: "Processamento de Imagem",
-      items: skills.imageprocessing,
+      items: skills.imageprocessing ?? [],
       color: "bg-teal-500/10 text-teal-700 dark:text-teal-300"
     },
     {
       title: "Ferramentas",
-      items: skills.tools,
+      items: skills.tools ?? [],
       color: "bg-purple-500/10 text-purple-700 dark:text-purple-300"
     }
   ];

@@ -13,7 +13,7 @@ Portfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar 
 - **Performance Otimizada** - Loading states, lazy loading e otimizações de renderização
 
 ### 📱 **Seções Implementadas**
-- **Sobre Mim** - Apresentação profissional com experiência na CEASA-PE
+- **Sobre Mim** - Apresentação profissional com experiência em empresa pública
 - **Habilidades** - 9 categorias técnicas especializadas
 - **Projetos** - Showcase interativo de trabalhos realizados
 - **Contato** - Múltiplas formas de comunicação

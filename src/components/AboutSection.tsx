@@ -28,7 +28,7 @@ export const AboutSection = ({ profile }: AboutProps) => {
             Sobre Mim
           </h3>
           <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-            Desenvolvedor Full Stack de Recife-PE, Brasil, graduando em Ciência da Computação. Meu primeiro "Hello World" foi quando percebi o incrível e infinito potencial da web. Sou apaixonado por artes, história, geografia e tecnologia. Entre meus hobbies estão assistir, ler e escrever. Acredito que a tecnologia pode transformar vidas e adoro criar soluções que unem criatividade, conhecimento e impacto positivo.
+            Desenvolvedor Full-Stack de Recife-PE com experiência em sistemas de grande escala, integrações de APIs e liderança de equipe. Graduando em Ciência da Computação na UFRPE. Apaixonado por dados governamentais abertos, machine learning aplicado e pela interseção entre tecnologia e humanidades.
           </p>
         </div>
         

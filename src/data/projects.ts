@@ -7,6 +7,7 @@ export type Project = {
   liveUrl?: string;
   image?: string;
   featured?: boolean;
+  professional?: boolean;
 };
 
 export const projects: Project[] = [
@@ -90,6 +91,32 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/rilsonjoas/RemovedorDeComentarios",
     liveUrl: "https://removedor-de-comentarios.vercel.app/",
     image: "/RemovedorDeComentarios.png",
+  },
+  {
+    id: "9",
+    title: "ERP Corporativo — Gestão Interna",
+    description:
+      "Sistema interno com 4 módulos em produção: gestão de funcionários, controle de credenciamento com documentos em PDF, estacionamento com QR Code e precificação de produtos. 150+ testes (Vitest + Cypress + Jest), CI/CD com GitHub Actions, monitoramento via Sentry e deploy em ambientes separados de homologação e produção.",
+    techStack: ["React 19", "Vite", "Node.js", "Express", "PostgreSQL 16", "Docker", "GitHub Actions", "Sentry"],
+    featured: true,
+    professional: true,
+  },
+  {
+    id: "11",
+    title: "App Mobile Corporativo — Entregas Offline-First",
+    description:
+      "Aplicativo mobile criado do zero com React Native e Expo para motoristas de logística. Arquitetura offline-first com WatermelonDB — sincroniza entregas, GPS e scanner de documentos mesmo sem conexão. Build automatizado com EAS Build e monitoramento com Sentry. Desenvolvido, testado e colocado em produção por mim, do design à loja.",
+    techStack: ["React Native", "Expo", "WatermelonDB", "EAS Build", "Sentry", "GitHub Actions"],
+    featured: true,
+    professional: true,
+  },
+  {
+    id: "10",
+    title: "Sistema de Gestão de Benefícios",
+    description:
+      "Sistema de gestão de benefícios alimentares para funcionários de uma empresa pública, em produção desde 2024. Controla distribuição de créditos por horário e dia da semana, geração de QR Code para pagamento, exportação de relatórios e monitoramento de transações em tempo real. Múltiplos perfis de acesso com permissões granulares.",
+    techStack: ["Node.js", "Express", "SQL Server", "JavaScript", "QRCode", "ExcelJS", "Winston", "node-cron", "bcrypt", "PM2"],
+    professional: true,
   },
   {
     id: "8",

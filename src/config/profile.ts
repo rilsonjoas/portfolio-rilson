@@ -1,25 +1,32 @@
 export const profile = {
   name: "Rilson Joás",
-  role: "Desenvolvedor Full-Stack & Data Science",
+  role: "Desenvolvedor Full-Stack",
   location: "Recife, Brasil",
-  bio: "Trabalho para produzir, construir e cultivar experiências cativantes e intuitivas na web. Recentemente fiz uma transição de carreira para o desenvolvimento e trabalho com projetos freelancer, focando em criar soluções modernas, responsivas e análise de dados.",
+  bio: "Desenvolvo sistemas web completos — do banco de dados ao frontend — com foco em dados reais e integrações complexas. Lidero o desenvolvimento de software em uma empresa pública, graduando em Ciência da Computação na UFRPE.",
   skills: {
-    languages: ["JavaScript (ES6+)", "TypeScript", "Python 3.10", "HTML5", "CSS3"],
-    frontend: ["React", "Next.js", "Tailwind CSS", "Bootstrap"],
-    backend: ["Express.js", "Firebase", "Supabase", "Sankhya"],
-    datascience: ["TensorFlow & Keras", "Scikit-learn", "Pandas", "NumPy"],
-    machinelearning: ["CNN (Redes Neurais Convolucionais)", "Machine Learning Clássico", "Computer Vision"],
-    datavisualization: ["Matplotlib", "Seaborn", "Análise de Dados"],
-    imageprocessing: ["OpenCV", "Scikit-image", "Processamento de Imagem"],
-    tools: ["Git", "GitHub", "Vite", "npm", "VS Code", "WordPress", "Jupyter Notebook"]
+    languages: ["JavaScript (ES6+)", "TypeScript", "Python 3", "HTML5", "CSS3"],
+    frontend: ["React", "Next.js", "Vite", "Tailwind CSS", "Shadcn/UI"],
+    mobile: ["React Native", "Expo"],
+    backend: ["NestJS", "Node.js", "Express.js", "FastAPI", "Prisma", "PostgreSQL", "SQL Server"],
+    datascience: ["scikit-learn", "Pandas", "NumPy", "TensorFlow & Keras"],
+    machinelearning: ["KMeans / PCA", "CNN (Redes Neurais Convolucionais)", "Machine Learning Clássico"],
+    datavisualization: ["Recharts", "Matplotlib", "Seaborn"],
+    imageprocessing: ["OpenCV", "Scikit-image", "PIL/Pillow"],
+    tools: ["Git", "GitHub Actions", "Docker", "Railway", "Vercel", "Vite", "pnpm", "VS Code", "Jupyter Notebook", "GLPI", "Vaultwarden"]
   },
   experience: {
-    current: "Assistente de TI Júnior",
-    company: "CEASA-PE",
-    level: "Desenvolvedor Full-Stack & Data Scientist em Transição",
-    focus: "Projetos Freelancer, Desenvolvimento Web & Análise de Dados",
-    specialties: ["Experiência do Usuário", "Interfaces Intuitivas", "Desenvolvimento Responsivo", "Machine Learning", "Computer Vision", "Análise de Dados"],
-    technologies: ["Sankhya", "Firebase", "Supabase", "Express.js", "WordPress", "Python", "TensorFlow", "Scikit-learn"]
+    current: "Líder Técnico de Desenvolvimento",
+    company: "Empresa Pública",
+    level: "Full-Stack Developer",
+    focus: "Sistemas internos, integrações e liderança de equipe de desenvolvimento",
+    specialties: [
+      "Liderança de equipe (3 devs + 2 estagiários + 1 jovem aprendiz)",
+      "Arquitetura de sistemas internos de grande escala",
+      "Integrações com APIs e sistemas legados",
+      "NestJS + PostgreSQL em produção",
+      "Machine Learning aplicado a dados reais",
+    ],
+    technologies: ["NestJS", "Node.js", "PostgreSQL", "React", "TypeScript", "Python", "scikit-learn", "Prisma"]
   },
   links: {
     github: "https://github.com/rilsonjoas",
