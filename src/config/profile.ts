@@ -7,12 +7,12 @@ export const profile = {
     languages: ["JavaScript (ES6+)", "TypeScript", "Python 3", "HTML5", "CSS3"],
     frontend: ["React", "Next.js", "Vite", "Tailwind CSS", "Shadcn/UI"],
     mobile: ["React Native", "Expo"],
-    backend: ["NestJS", "Node.js", "Express.js", "FastAPI", "Prisma", "PostgreSQL", "SQL Server"],
+    backend: ["NestJS", "Node.js", "Express.js", "FastAPI", "Laravel", "PHP", "Prisma", "PostgreSQL", "MySQL", "SQL Server", "Firebase", "Supabase"],
     datascience: ["scikit-learn", "Pandas", "NumPy", "TensorFlow & Keras"],
     machinelearning: ["KMeans / PCA", "CNN (Redes Neurais Convolucionais)", "Machine Learning Clássico"],
     datavisualization: ["Recharts", "Matplotlib", "Seaborn"],
     imageprocessing: ["OpenCV", "Scikit-image", "PIL/Pillow"],
-    tools: ["Git", "GitHub Actions", "Docker", "Railway", "Vercel", "Vite", "pnpm", "VS Code", "Jupyter Notebook", "GLPI", "Vaultwarden"]
+    tools: ["Git", "GitHub Actions", "Docker", "Railway", "Vercel", "Vite", "pnpm", "VS Code", "Jupyter Notebook", "GLPI", "Vaultwarden", "Sentry", "Vitest", "Cypress"]
   },
   experience: {
     current: "Líder Técnico de Desenvolvimento",
@@ -23,6 +23,8 @@ export const profile = {
       "Liderança de equipe (3 devs + 2 estagiários + 1 jovem aprendiz)",
       "Arquitetura de sistemas internos de grande escala",
       "Integrações com APIs e sistemas legados",
+      "Migração de banco de dados em produção (SQL Server → PostgreSQL)",
+      "Troubleshooting de infraestrutura além do código (rede, firewall, DNS)",
       "NestJS + PostgreSQL em produção",
       "Machine Learning aplicado a dados reais",
     ],

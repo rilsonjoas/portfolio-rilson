@@ -96,9 +96,25 @@ export const projects: Project[] = [
     id: "9",
     title: "ERP Corporativo — Gestão Interna",
     description:
-      "Sistema interno com 4 módulos em produção: gestão de funcionários, controle de credenciamento com documentos em PDF, estacionamento com QR Code e precificação de produtos. 150+ testes (Vitest + Cypress + Jest), CI/CD com GitHub Actions, monitoramento via Sentry e deploy em ambientes separados de homologação e produção.",
+      "Sistema interno com 4 módulos em produção: gestão de funcionários, controle de credenciamento com documentos em PDF, estacionamento com QR Code e precificação de produtos. 150+ testes (Vitest + Cypress + Jest), CI/CD com GitHub Actions, monitoramento via Sentry e deploy em ambientes separados de homologação e produção. Liderança na investigação de um bug crítico de performance em produção (99% de CPU, causa raiz em subqueries correlacionadas) e na migração completa de banco de dados (SQL Server → PostgreSQL) já concluída em produção, além de arquitetura de backup com redundância geográfica entre servidores.",
     techStack: ["React 19", "Vite", "Node.js", "Express", "PostgreSQL 16", "Docker", "GitHub Actions", "Sentry"],
     featured: true,
+    professional: true,
+  },
+  {
+    id: "13",
+    title: "Painel Administrativo — Substituição de CMS Terceirizado",
+    description:
+      "Após o fim de um contrato com uma agência terceirizada, uma organização perdeu acesso ao CMS usado pra atualizar seu site institucional. Liderei a construção de um painel administrativo próprio do zero (PHP, MVC customizado), cobrindo os módulos de conteúdo mais frequentes (notícias, licitações, banners, relatórios), eliminando a dependência de fornecedor externo.",
+    techStack: ["PHP", "MySQL", "PDO", "MVC"],
+    professional: true,
+  },
+  {
+    id: "14",
+    title: "Sistema de Controle de Peso em Logística",
+    description:
+      "Um sistema de romaneios de carga não validava o peso dos veículos — campos existiam no cadastro mas eram ignorados pelo código, permitindo exceder a capacidade máxima sem aviso. Implementei validação ponta a ponta: hierarquia de cálculo em 3 níveis no backend, bloqueio de salvamento acima da capacidade, e feedback visual em tempo real no frontend. Levantamento e implementação em 2 semanas, entregue e deployado em homologação pra outra equipe de desenvolvimento.",
+    techStack: ["TypeScript", "API REST"],
     professional: true,
   },
   {
@@ -114,7 +130,7 @@ export const projects: Project[] = [
     id: "10",
     title: "Sistema de Gestão de Benefícios",
     description:
-      "Sistema de gestão de benefícios alimentares para funcionários de uma empresa pública, em produção desde 2024. Controla distribuição de créditos por horário e dia da semana, geração de QR Code para pagamento, exportação de relatórios e monitoramento de transações em tempo real. Múltiplos perfis de acesso com permissões granulares.",
+      "Sistema de gestão de benefícios alimentares para funcionários de uma empresa pública, em produção desde 2024. Controla distribuição de créditos por horário e dia da semana, geração de QR Code para pagamento, exportação de relatórios e monitoramento de transações em tempo real. Múltiplos perfis de acesso com permissões granulares, camadas de validação financeira e um piloto completo de migração de banco de dados (SQL Server → PostgreSQL) rodando em Docker.",
     techStack: ["Node.js", "Express", "SQL Server", "JavaScript", "QRCode", "ExcelJS", "Winston", "node-cron", "bcrypt", "PM2"],
     professional: true,
   },
@@ -126,6 +142,15 @@ export const projects: Project[] = [
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     githubUrl: "https://github.com/rilsonjoas/QuizDenominacional", 
     liveUrl: "https://quiz-denominacional.vercel.app/",
-    image: "/quiz-denominacional.png", 
+    image: "/quiz-denominacional.png",
+  },
+  {
+    id: "12",
+    title: "C. S. Lewis Wisdom",
+    description:
+      "CLI publicada no npm que exibe citações multilíngues (PT/EN/ES) de C. S. Lewis diretamente no terminal. Build com TypeScript, pipeline de CI/CD para publicação automática no npm registry.",
+    techStack: ["TypeScript", "Node.js", "npm", "CLI", "CI/CD"],
+    githubUrl: "https://github.com/rilsonjoas/cslewis-wisdom",
+    liveUrl: "https://www.npmjs.com/package/cslewis-wisdom",
   }
 ];
