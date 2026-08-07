@@ -12,6 +12,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "15",
+    title: "Bíblia na Arte",
+    description:
+      "Catálogo curado conectando ~850 pinturas a passagens bíblicas específicas, com auditoria própria de direitos autorais sobre um acervo de quase mil obras (domínio público, licenciamento explícito ou exclusão, artista a artista). Self-hosted num VPS próprio (Docker + Traefik + Postgres), com API REST em Fastify + Drizzle ORM, busca full-text em português e pipeline de dados que popula o banco direto do catálogo curado.",
+    techStack: ["React", "TypeScript", "Vite", "Fastify", "Drizzle ORM", "PostgreSQL", "Docker", "Traefik"],
+    githubUrl: "https://github.com/rilsonjoas/biblia-na-arte",
+    liveUrl: "https://biblianaarte.narniano.com",
+    image: "/BiblianaArte.png",
+    featured: true,
+  },
+  {
     id: "1",
     title: "Alternativas BR",
     description:
@@ -113,7 +124,7 @@ export const projects: Project[] = [
     id: "14",
     title: "Sistema de Controle de Peso em Logística",
     description:
-      "Um sistema de romaneios de carga não validava o peso dos veículos — campos existiam no cadastro mas eram ignorados pelo código, permitindo exceder a capacidade máxima sem aviso. Implementei validação ponta a ponta: hierarquia de cálculo em 3 níveis no backend, bloqueio de salvamento acima da capacidade, e feedback visual em tempo real no frontend. Levantamento e implementação em 2 semanas, entregue e deployado em homologação pra outra equipe de desenvolvimento.",
+      "Um sistema de romaneios de carga não validava o peso dos veículos — campos existiam no cadastro mas eram ignorados pelo código, permitindo exceder a capacidade máxima sem aviso. Identifiquei esse problema de segurança que ninguém tinha notado e implementei validação ponta a ponta: hierarquia de cálculo em 3 níveis no backend, bloqueio de salvamento acima da capacidade, e feedback visual em tempo real no frontend. Levantamento e implementação em 2 semanas, entregue e deployado em homologação pra outra equipe de desenvolvimento.",
     techStack: ["TypeScript", "API REST"],
     professional: true,
   },
@@ -130,7 +141,7 @@ export const projects: Project[] = [
     id: "10",
     title: "Sistema de Gestão de Benefícios",
     description:
-      "Sistema de gestão de benefícios alimentares para funcionários de uma empresa pública, em produção desde 2024. Controla distribuição de créditos por horário e dia da semana, geração de QR Code para pagamento, exportação de relatórios e monitoramento de transações em tempo real. Múltiplos perfis de acesso com permissões granulares, camadas de validação financeira e um piloto completo de migração de banco de dados (SQL Server → PostgreSQL) rodando em Docker.",
+      "Sistema de gestão de benefícios alimentares para funcionários de uma empresa pública, em produção desde 2024. Controla distribuição de créditos por horário e dia da semana, geração de QR Code para pagamento, exportação de relatórios e monitoramento de transações em tempo real. Múltiplos perfis de acesso com permissões granulares, camadas de validação financeira e um piloto completo de migração de banco de dados (SQL Server → PostgreSQL) rodando em Docker — prova de conceito que embasou a decisão de migrar o ERP corporativo principal.",
     techStack: ["Node.js", "Express", "SQL Server", "JavaScript", "QRCode", "ExcelJS", "Winston", "node-cron", "bcrypt", "PM2"],
     professional: true,
   },
