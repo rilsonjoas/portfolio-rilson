@@ -4,6 +4,9 @@ Portfolio pessoal moderno desenvolvido com tecnologias de ponta para apresentar 
 
 **🌐 Acesse:** [portfolio-rilson.vercel.app](https://portfolio-rilson.vercel.app)
 
+> [!NOTE]
+> Roadmap (engenharia + backlog de produto) em [`ROADMAP.md`](ROADMAP.md).
+
 ## ✨ Características do Projeto
 
 ### 🎯 **Interface Completa**
