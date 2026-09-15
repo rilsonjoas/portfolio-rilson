@@ -4,15 +4,15 @@ export const profile = {
   location: "Recife, Brasil",
   bio: "Desenvolvo sistemas web completos — do banco de dados ao frontend — com foco em dados reais e integrações complexas. Lidero o desenvolvimento de software em uma empresa pública, graduando em Ciência da Computação na UFRPE.",
   skills: {
-    languages: ["JavaScript (ES6+)", "TypeScript", "Python 3", "HTML5", "CSS3"],
-    frontend: ["React", "Next.js", "Vite", "Tailwind CSS", "Shadcn/UI"],
-    mobile: ["React Native", "Expo"],
-    backend: ["NestJS", "Node.js", "Express.js", "FastAPI", "Laravel", "PHP", "Prisma", "PostgreSQL", "MySQL", "SQL Server", "Firebase", "Supabase"],
+    languages: ["JavaScript (ES6+)", "TypeScript", "Python 3", "PHP", "SQL", "HTML5", "CSS3"],
+    frontend: ["React", "Next.js", "Vite", "Tailwind CSS", "Shadcn/UI", "Storybook", "PWA", "WCAG (Acessibilidade)"],
+    mobile: ["React Native", "Expo", "WatermelonDB", "EAS Build"],
+    backend: ["NestJS", "Fastify", "Node.js", "Express.js", "FastAPI", "Laravel", "Drizzle ORM", "Prisma", "PostgreSQL", "MySQL", "SQL Server", "Supabase", "Firebase"],
     datascience: ["scikit-learn", "Pandas", "NumPy", "TensorFlow & Keras"],
     machinelearning: ["KMeans / PCA", "CNN (Redes Neurais Convolucionais)", "Machine Learning Clássico"],
     datavisualization: ["Recharts", "Matplotlib", "Seaborn"],
     imageprocessing: ["OpenCV", "Scikit-image", "PIL/Pillow"],
-    tools: ["Git", "GitHub Actions", "Docker", "Railway", "Vercel", "Vite", "pnpm", "VS Code", "Jupyter Notebook", "GLPI", "Vaultwarden", "Sentry", "Vitest", "Cypress"]
+    tools: ["Docker", "Docker Compose", "Traefik", "GitHub Actions", "Git", "Sentry", "Vitest", "Cypress", "Jest", "Uptime Kuma", "PM2", "Vercel", "Railway", "pnpm", "GLPI", "Vaultwarden"]
   },
   experience: {
     current: "Líder Técnico de Desenvolvimento",
@@ -33,7 +33,10 @@ export const profile = {
   links: {
     github: "https://github.com/rilsonjoas",
     linkedin: "https://www.linkedin.com/in/rilson-joas/",
+    instagram: "https://www.instagram.com/rilsonjoas",
     email: "mailto:rilsonjoas10@gmail.com",
+    artecristadiaria: "https://www.instagram.com/artecristadiaria",
+    narniano: "https://narniano.com",
   },
 };
 
