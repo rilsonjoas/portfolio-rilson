@@ -43,15 +43,15 @@ export const projects: Project[] = [
     id: "16",
     title: "Lecionário — PWA & Design System",
     description:
-      "Aplicação devocional litúrgica offline-first construída com Next.js 14, TypeScript e Tailwind CSS. Inclui Design System completo documentado no Storybook e publicado via Chromatic com 20 estórias cobrindo 6 componentes principais, esquemas de cores litúrgicas dinâmicas (Advento, Quaresma, Páscoa, Tempo Comum) e auditoria automatizada de Acessibilidade (WCAG 2.1 AA via axe-core). Conta também com app mobile Expo e sincronização offline-first.",
-    techStack: ["Next.js 14", "React", "TypeScript", "Tailwind CSS", "Storybook 10", "Chromatic", "WCAG AA (axe-core)", "PWA", "Expo / React Native", "Docker", "Traefik"],
+      "Aplicação devocional litúrgica offline-first construída com Next.js 14, TypeScript e Tailwind CSS. Inclui Design System completo documentado no Storybook e publicado via Chromatic com 20 estórias cobrindo 6 componentes principais, esquemas de cores litúrgicas dinâmicas (Advento, Quaresma, Páscoa, Tempo Comum) e auditoria de Acessibilidade por componente no Storybook (axe-core). A acessibilidade do app foi auditada contra a WCAG 2.2 AA com contraste medido token a token, em modo claro e escuro e nas sete estações litúrgicas. Conta também com app mobile Expo e sincronização offline-first.",
+    techStack: ["Next.js 14", "React", "TypeScript", "Tailwind CSS", "Storybook 10", "Chromatic", "WCAG 2.2 AA", "PWA", "Expo / React Native", "Docker", "Traefik"],
     category: "cultura",
     githubUrl: "https://github.com/rilsonjoas/lecionario",
     liveUrl: "https://lecionario.narniano.com",
     storybookUrl: "https://6aa06cf7b78086dc2c90cdd0-qbdvaubjmo.chromatic.com/",
     image: "/lecionario.png",
     featured: true,
-    highlightBadge: "Storybook 10 • WCAG 2.1 AA • Chromatic",
+    highlightBadge: "Storybook 10 • WCAG 2.2 AA • Chromatic",
   },
   {
     id: "4",
