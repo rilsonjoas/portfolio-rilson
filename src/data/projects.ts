@@ -54,6 +54,18 @@ export const projects: Project[] = [
     highlightBadge: "Storybook 10 • WCAG 2.2 AA • Chromatic",
   },
   {
+    id: "20",
+    title: "Scriptorium Divinum",
+    description:
+      "Biblioteca digital de teologia cristã clássica em domínio público: mais de 250 obras em português (patrística, confissões e clássicos devocionais), com leitor paginado, busca, favoritos e citações do dia. API própria em Fastify + Drizzle ORM + PostgreSQL com especificação OpenAPI, consumida pelo Lecionário, pelo portal Narniano e pelo Gerador C. S. Lewis; um canário de hora em hora confere os contratos entre os projetos. Painel de curadoria de citações com histórico auditável de cada mudança e acessibilidade verificada por testes automatizados (axe-core). Self-hosted num VPS próprio (Docker + Traefik).",
+    techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Fastify", "Drizzle ORM", "PostgreSQL", "OpenAPI", "Docker", "Traefik"],
+    category: "cultura",
+    githubUrl: "https://github.com/rilsonjoas/scriptorium-divinum",
+    liveUrl: "https://scriptorium.narniano.com",
+    image: "/Scriptorium.png",
+    highlightBadge: "OpenAPI • Painel de curadoria • VPS Traefik",
+  },
+  {
     id: "4",
     title: "A Bancada Evangélica",
     description:
